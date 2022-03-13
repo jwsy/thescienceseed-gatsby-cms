@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: main
+  proxy_url: http://localhost:8081/api/v1 # npx netlify-cms-proxy-server
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"

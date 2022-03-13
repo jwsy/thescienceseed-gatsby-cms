@@ -7,6 +7,12 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     {
+      resolve: `gatsby-plugin-netlify-identity`,
+      options: {
+        url: `https://thescienceseed-gatsby-cms.netlify.app` // required!
+      }
+    },
+    {
       resolve: "gatsby-plugin-sass",
       options: {
         sassOptions: {
