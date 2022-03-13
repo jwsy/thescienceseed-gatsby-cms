@@ -166,7 +166,8 @@ export const productPageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
+                # gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
+                gatsbyImageData(height: 240, quality: 64, layout: CONSTRAINED)
               }
             }
             text
