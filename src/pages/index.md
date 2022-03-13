@@ -1,56 +1,54 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: The Science Seed
+image: /img/tss-jumbotron.jpeg
+heading: science enrichment program designed to develop a love of science in
+  kids 3-8 years old
+subheading: Planting a love of science
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  title: Why The Science Seed
+  description: The Science Seed™ is a science enrichment program designed to
+    develop a love of science that will last a lifetime. Children are natural
+    scientists; curious and full of the desire to observe and
+    explore.  Preschool and early elementary are the perfect times to start a
+    lifelong love of science by introducing students to basic concepts.
+description: The Science Seed™ is based in Arlington, Virginia, and offers
+  science enrichment for preschool – 2nd grade during the school day and after
+  school at several preschools and elementary schools in Arlington, Alexandria,
+  Annandale, and Falls Church.  View our school list.
 intro:
   blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+    - image: /img/starfish.jpeg
+      text: >-
+        PROGRAMS & RATES
+
+
+        Our classes cover a range of science subjects, with an emphasis on fun AND learning!
+    - image: /img/white-goop.jpeg
+      text: >-
+        TAKE A CLASS
+
+
+        Learn everything you need to know about taking a class and signing up with The Science Seed!
+    - image: /img/explore-boardwalk.jpeg
+      text: >-
+        EXPLORE
+
+
+        Introduce your children to science in their every day lives. Find museums, planetariums, zoos, aquariums and more...
+    - image: /img/two-kids-volcano.jpeg
+      text: >-
+        CONTACT US
+
+
+        Would you like The Science Seed to come to your school? Do you have any questions about The Science Seed? Contact us!
   heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  description: >+
+    The Science Seed™ is based in Arlington, Virginia, and offers science
+    enrichment for preschool – 2nd grade during the school day and after school
+    at several preschools and elementary schools in Arlington, Alexandria,
+    Annandale, and Falls Church.  View our school list.
+
 main:
   heading: Great coffee with no compromises
   description: >

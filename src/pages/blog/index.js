@@ -4,7 +4,9 @@ import Layout from "../../components/Layout";
 import BlogRoll from "../../components/BlogRoll";
 
 export default class BlogIndexPage extends React.Component {
+
   render() {
+    var themeColor = "rgb(125 190 74)";
     return (
       <Layout>
         <div
@@ -16,8 +18,11 @@ export default class BlogIndexPage extends React.Component {
           <h1
             className="has-text-weight-bold is-size-1"
             style={{
-              boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
-              backgroundColor: "#f40",
+              // boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
+              // backgroundColor: "#f40",
+              boxShadow:
+                `${themeColor} 0.5rem 0px 0px, ${themeColor} -0.5rem 0px 0px`,
+              backgroundColor: `${themeColor}`,
               color: "white",
               padding: "1rem",
             }}
