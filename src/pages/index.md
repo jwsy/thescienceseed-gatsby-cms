@@ -1,17 +1,16 @@
 ---
 templateKey: index-page
-title: The Science Seed
-image: /img/tss-jumbotron.jpeg
-heading: science enrichment program designed to develop a love of science in
-  kids 3-8 years old
-subheading: Planting a love of science
+title: planting a love of science
+image: /img/slideshowSeashore.jpeg
+heading: We offer a wide range of topics in a variety of science disciplines
+subheading: OUR CLASSES ARE FUN, INTERACTIVE, AND FOCUS ON LEARNING
 mainpitch:
-  title: Why The Science Seed
-  description: The Science Seed™ is a science enrichment program designed to
-    develop a love of science that will last a lifetime. Children are natural
-    scientists; curious and full of the desire to observe and
-    explore.  Preschool and early elementary are the perfect times to start a
-    lifelong love of science by introducing students to basic concepts.
+  title: The Science Seed™ is a science enrichment program designed to develop a
+    love of science that will last a lifetime
+  description: Children are natural scientists; curious and full of the desire to
+    observe and explore.  Preschool and early elementary are the perfect times
+    to start a lifelong love of science by introducing students to basic
+    concepts.
 description: The Science Seed™ is based in Arlington, Virginia, and offers
   science enrichment for preschool – 2nd grade during the school day and after
   school at several preschools and elementary schools in Arlington, Alexandria,
