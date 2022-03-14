@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: planting a love of science
+title: h1 content
 image: /img/slideshowSeashore.jpeg
 heading: We offer a wide range of topics in a variety of science disciplines
-subheading: OUR CLASSES ARE FUN, INTERACTIVE, AND FOCUS ON LEARNING
+subheading: planting a love of science
 mainpitch:
   title: The Science Seed™ is a science enrichment program designed to develop a
     love of science that will last a lifetime
@@ -42,12 +42,11 @@ intro:
 
         Would you like The Science Seed to come to your school? Do you have any questions about The Science Seed? Contact us!
   heading: What we offer
-  description: >+
-    The Science Seed™ is based in Arlington, Virginia, and offers science
-    enrichment for preschool – 2nd grade during the school day and after school
-    at several preschools and elementary schools in Arlington, Alexandria,
-    Annandale, and Falls Church.  View our school list.
-
+  description: The Science Seed™ is based in Arlington, Virginia, and offers
+    science enrichment for preschool – 2nd grade during the school day and after
+    school at several preschools and elementary schools in Arlington,
+    Alexandria, Annandale, and Falls Church.  [View our school
+    list](https://thescienceseed.com/take-a-class).
 main:
   heading: Great coffee with no compromises
   description: >

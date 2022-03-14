@@ -15,17 +15,17 @@ export const IndexPageTemplate = ({
   heading,
   subheading,
   mainpitch,
-  description,
+  description, // refactored to be markdown
   intro,
 }) => {
   const heroImage = getImage(image) || image;
 
   return (
     <div>
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
-      <section className="section section--gradient">
+      <FullWidthImage img={heroImage} title="" subheading={subheading} />
+      <section className="section section--gradient pt-5">
         <div className="container">
-          <div className="section">
+          <div className="section pt-0">
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
@@ -34,14 +34,15 @@ export const IndexPageTemplate = ({
                       <h1 className="title">{mainpitch.title}</h1>
                     </div>
                     <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
+                      <h4 className="subtitle has-text-weight-normal">{mainpitch.description}</h4>
                     </div>
                   </div>
                   <div className="columns">
                     <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
+                      <h3 className="has-text-weight-semibold is-size-3 ">
                         {heading}
                       </h3>
+                      <p>intro.description to conver md -> HTML is here</p>
                       <p>{description}</p>
                     </div>
                   </div>
@@ -88,6 +89,7 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
+  console.log(frontmatter);
 
   return (
     <Layout>
