@@ -1,6 +1,6 @@
 # TheScienceSeed - Gatsby + Netlify CMS Starter
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bad67d82-7af2-4535-b1b8-42df2fd65461/deploy-status)](https://app.netlify.com/sites/thescienceseed-gatsby-cms/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/83835e8f-5206-4602-b605-7e0672226cf4/deploy-status)](https://app.netlify.com/sites/thescienceseed-demo/deploys)
 
 **Note:** This starter uses [Gatsby v4](https://www.gatsbyjs.com/gatsby-4/).
 
