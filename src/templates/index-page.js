@@ -8,6 +8,9 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
   image,
@@ -15,7 +18,6 @@ export const IndexPageTemplate = ({
   heading,
   subheading,
   mainpitch,
-  description, // refactored to be markdown
   intro,
 }) => {
   const heroImage = getImage(image) || image;
@@ -34,7 +36,7 @@ export const IndexPageTemplate = ({
                       <h1 className="title">{mainpitch.title}</h1>
                     </div>
                     <div className="tile">
-                      <h4 className="subtitle has-text-weight-normal">{mainpitch.description}</h4>
+                      <span>{mainpitch.description}</span>
                     </div>
                   </div>
                   <div className="columns">
@@ -42,8 +44,7 @@ export const IndexPageTemplate = ({
                       <h3 className="has-text-weight-semibold is-size-3 ">
                         {heading}
                       </h3>
-                      <p>intro.description to conver md -> HTML is here</p>
-                      <p>{description}</p>
+                      <ReactMarkdown remarkPlugins={[[remarkGfm],]}>{intro.description}</ReactMarkdown>
                     </div>
                   </div>
                   <Features gridItems={intro.blurbs} />

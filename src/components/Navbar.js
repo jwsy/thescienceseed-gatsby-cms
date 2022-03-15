@@ -58,6 +58,11 @@ const Navbar = class extends React.Component {
               tabIndex={0}
               onKeyPress={() => this.toggleHamburger()}
               onClick={() => this.toggleHamburger()}
+              style={{ 
+                outline: 'thin',
+                color: 'white',
+                backgroundColor: 'rgba(125, 190, 74, 0.9)',
+              }}
             >
               <span />
               <span />
