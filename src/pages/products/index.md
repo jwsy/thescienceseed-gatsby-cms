@@ -127,6 +127,38 @@ intro:
         love for science through The Science Seed program. (Teaching with The
         Science Seed since 2018)
       image: /img/teacher-amanda-broadhurst.jpeg
+    - title: Valerie Steenstra
+      text: Valerie Steenstra is an Arlington native and a strong proponent of
+        life-long learning. She graduated with a B.A. in English from Marymount
+        University. After spending time in the legal field, she made the
+        decision to stay at home with her first child and continued at home with
+        her second child. She enjoyed sharing the worlds of science, history,
+        and all kinds of learning with her children through museum visits,
+        books, nature study, home experiments and art projects. Restless when
+        her children were both in preschool, Valerie began to volunteer and
+        substitute teach at their school and taught a CCD class at St. Charles
+        Borromeo in Arlington. Finding that working with children and sharing
+        their exploration of the world is her true vocation, Valerie became an
+        Assistant Teacher at Mount Olivet Preschool in 2007, and she continues
+        there today as the Lead Teacher in the Infant/Toddler classroom. She has
+        also enjoyed teaching multiple pre-school S.T.E.A.M., Art, and Lego
+        enrichment classes as well as Big and Little Kid summer camps in
+        Arlington and Falls Church. She is very excited to continue to share the
+        world of science with more children through The Science Seed program!
+        (Teaching with The Science Seed since 2019)
+      image: /img/teacher-valerie-steenstra.jpeg
+    - text: "Ms. Aly grew up in Northern Virginia and loves exploring and learning
+        outdoors. She enjoys teaching through discovery and delights in helping
+        children experience the world around them. Always excited to learn
+        something new, she spends her free time with her kids out in nature
+        hiking, exploring museums and national parks, playing in streams and
+        getting dirty. Ms. Aly received her BS in Family Childhood Development:
+        Early Childhood Education from Virginia Tech. She has taught students
+        from preschool through 5th grade and is excited to bring the world of
+        science to children with The Science Seed.  (Teaching with The Science
+        Seed since 2021)"
+      title: Aly Anderson
+      image: /img/teacher-aly-anderson.jpeg
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
