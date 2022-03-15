@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { Link, graphql, navigate } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
@@ -10,6 +10,8 @@ import FullWidthImage from "../components/FullWidthImage";
 
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+
+import logo from "../img/tss-logo-sq.svg";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -21,11 +23,16 @@ export const IndexPageTemplate = ({
   intro,
 }) => {
   const heroImage = getImage(image) || image;
+  const svgWhiteStyle = {
+    fill: "#fff",
+    height: "1em",
+    filter: "brightness(0%) saturate(100%) invert(100%)",
+  };
 
   return (
     <div>
       <FullWidthImage img={heroImage} title="" subheading={subheading} />
-      <section className="section section--gradient pt-5">
+      <section className="section section--gradient pt-4">
         <div className="container">
           <div className="section pt-0">
             <div className="columns">
@@ -33,15 +40,25 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="content">
                     <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
+                      <h2 className="title">{mainpitch.title}</h2>
                     </div>
                     <div className="tile">
                       <span>{mainpitch.description}</span>
                     </div>
+                    <div className="tile pt-4">
+                      <button className="button is-large is-primary is-fullwidth" 
+                        role="link" 
+                        onClick={()=>{navigate("/contact")}} >
+                        <span>Contact us &nbsp;</span>
+                        <span>
+                          <img src={logo} style={svgWhiteStyle} alt="TheScienceSeed" />
+                        </span>
+                      </button>
+                    </div>
                   </div>
                   <div className="columns">
                     <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-3 ">
+                      <h3 className="has-text-weight-semibold">
                         {heading}
                       </h3>
                       <ReactMarkdown remarkPlugins={[[remarkGfm],]}>{intro.description}</ReactMarkdown>
@@ -50,13 +67,13 @@ export const IndexPageTemplate = ({
                   <Features gridItems={intro.blurbs} />
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
+                      {/* <Link className="btn" to="/products">
                         See all products
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="has-text-weight-semibold">
                       Latest stories
                     </h3>
                     <BlogRoll />
@@ -90,7 +107,6 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-  console.log(frontmatter);
 
   return (
     <Layout>
@@ -141,6 +157,7 @@ export const pageQuery = graphql`
                 gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
               }
             }
+            title
             text
           }
           heading

@@ -1,19 +1,25 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
 title: About our values
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+The Science Seed™ is a science enrichment program designed to develop a love of science that will last a lifetime. Children are natural scientists; curious and full of the desire to observe and explore.  Preschool and early elementary are the perfect times to start a lifelong love of science by introducing students to basic concepts.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+The Science Seed™ teaches geology, chemistry, biology, physics, nature and nutrition in fun, interactive and age-appropriate ways.  Instead of offering sessions in topic themes, we aim for students to understand the breadth of science…science is big and broad!  Therefore, any time your child is enrolled in our classes, whether it is an after school program, through the County classes or during their regular preschool day, they will have a mix of science disciplines.  By experiencing a broad range of topics, we hope all children will learn that they love science!
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Does your child love a particular type of science?  Our themed camps will be perfect for them.  Our camp focus on one discipline for a week-long in-depth exploration!
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### Our community
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+The Science Seed™ is based in Arlington, Virginia, and offers science enrichment for preschool – 2nd grade during the school day and after school at several preschools and elementary schools in Arlington, Alexandria, Annandale, and Falls Church.  **[View our school list](https://thescienceseed.com/take-a-class "Take A Class")**
+
+### Only the best for our children
+
+* Certified Small, Micro, Woman Owned business (**[SWaM](https://www.sbsd.virginia.gov/certification-division/swam/)**)
+* Insured by **[The Hartford Insurance](https://www.thehartford.com/)**.
+* Proudly partnered with **[Arlington County Parks & Rec](https://parks.arlingtonva.us/)**, **[ City of Alexandria Parks, Recreation & Cultural Activities,](https://www.alexandriava.gov/Recreation)** **[Enrichment Matters](https://enrichmentmatters.com/)**, **[Fairfax County Park Authority](https://www.fairfaxcounty.gov/parks/)**, **[FLEX Acadamies](https://flexacademies.com/)**, **[Baroody Camps](https://www.baroodycamps.com/home)**, and **[Supernova Science](https://supernovascience.com/)**.
+* **[VIRTUS](https://www.virtusonline.org/virtus/index.cfm?)** certified teachers available upon request.
+
+All of the teachers for The Science Seed™ have undergone thorough background checks and are fully vaccinated against the COVID-19 virus.  Our teachers come to us with years of classroom experience.
+
+For more information about each of our teachers, and the owner, Allegra Jabo, please visit our [Teachers Page](/products/)

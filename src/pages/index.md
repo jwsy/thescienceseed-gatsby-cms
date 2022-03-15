@@ -18,29 +18,21 @@ description: The Science Seed™ is based in Arlington, Virginia, and offers
 intro:
   blurbs:
     - image: /img/starfish.jpeg
-      text: >-
-        PROGRAMS & RATES
-
-
-        Our classes cover a range of science subjects, with an emphasis on fun AND learning!
+      text: Our classes cover a range of science subjects, with an emphasis on fun AND
+        learning!
+      title: PROGRAMS & RATES
     - image: /img/white-goop.jpeg
-      text: >-
-        TAKE A CLASS
-
-
-        Learn everything you need to know about taking a class and signing up with The Science Seed!
+      text: Learn everything you need to know about taking a class and signing up with
+        The Science Seed!
+      title: TAKE A CLASS
     - image: /img/explore-boardwalk.jpeg
-      text: >-
-        EXPLORE
-
-
-        Introduce your children to science in their every day lives. Find museums, planetariums, zoos, aquariums and more...
+      text: Introduce your children to science in their every day lives. Find museums,
+        planetariums, zoos, aquariums and more...
+      title: EXPLORE
     - image: /img/two-kids-volcano.jpeg
-      text: >-
-        CONTACT US
-
-
-        Would you like The Science Seed to come to your school? Do you have any questions about The Science Seed? Contact us!
+      text: Would you like The Science Seed to come to your school? Do you have any
+        questions about The Science Seed? Contact us!
+      title: CONTACT US
   heading: What we offer
   description: The Science Seed™ is based in Arlington, Virginia, and offers
     science enrichment for preschool – 2nd grade during the school day and after
