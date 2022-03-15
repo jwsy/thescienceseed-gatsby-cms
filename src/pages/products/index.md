@@ -4,9 +4,14 @@ path: /products
 templateKey: product-page
 title: Our Teachers
 image: /img/hands-on-wide.jpeg
-description: We are the perfect job for teachers looking to pick up part-time
-  work.  Flexible, part-time hours Great hourly pay Teaching experience required
-  Please contact us if interested
+description: |-
+  We are the perfect job for teachers looking to pick up part-time work.  
+
+  * Flexible, part-time hours 
+  * Great hourly pay 
+  * Teaching experience required 
+
+  [Please contact us if interested](/contact)
 intro:
   blurbs:
     - image: /img/allegrajabo.jpeg
@@ -27,6 +32,7 @@ intro:
 
         In 2004, Ms. Allegra took a break from research to stay home with her daughter, who was followed by a baby sister in 2005.  When her eldest daughter entered preschool in 2007, she wanted her to have a positive first experience to start her love of science early.  Ms. Allegra started teaching science to her daughter’s preschool class and the birth of The Science Seed™ concept began.
 
+      title: Allegra Jabo, Founder
     - image: /img/vestanelson.jpeg
       text: >+
         Ms. Vesta has been teaching children from preschool to middle school
@@ -45,6 +51,7 @@ intro:
         Pennsylvania and Texas and has enjoyed teaching for The Science Seed for
         several years. (Teaching with The Science Seed since 2013)
 
+      title: Vesta Nelson
     - image: /img/jenhealey.jpeg
       text: Jen loves making discoveries and getting messy with young children! She
         received a BS in Geology with a Minor in Environmental Studies from
@@ -58,6 +65,7 @@ intro:
         enjoying the opportunity to enrich her days further by sharing her love
         of science with children through The Science Seed program. (Teaching
         with The Science Seed since 2016)
+      title: Jen Healey
     - image: /img/sarahgoldstein.jpeg
       text: >+
         Sarah traces her love of science and nature back to her earliest days of
@@ -85,6 +93,40 @@ intro:
         engage with and care for the natural world. (Teaching with The Science
         Seed since 2017)
 
+      title: Sarah Goldstein
+    - title: Calli Harris
+      text: A native of Brazil, Ms Calli moved to the United States at a young age,
+        where she pursued her love of science. She earned Bachelor’s degrees in
+        Chemistry and Biochemistry from North Carolina State University, with
+        Minors in Genetics and Psychology, and began her science career at RTI
+        International in the Research Triangle Park. While working for RTI, Ms
+        Calli continued her education, ultimately obtaining a Master’s degree in
+        Biochemistry. She moved to California in 2003, conducting research in
+        the Nutrition Department at the University of California, Davis. After
+        her two daughters were born, the Harris family decided to return to the
+        East Coast. Ms Calli focused on raising her daughters, volunteering in
+        their schools, and giving language lessons to small children. Ms Calli’s
+        home is filled with science books and projects for the whole family, and
+        teaching with The Science Seed is a natural – and exciting – extension
+        of that.  (Teaching with The Science Seed since 2018)
+      image: /img/teacher-calli-harris.jpeg
+    - title: Amanda Broadhurst
+      text: Ms Amanda studied occupational therapy at The University of Scranton and
+        has enjoyed working as an occupational therapist in Delaware for the
+        past 19 years. While she initially specialized in adult acute care and
+        outpatient brain injury, her true passion has always been working with
+        children, which started as a swim coach/instructor. This love resulted
+        in a career specialization in pediatric occupational therapy. She has
+        worked with all ages, across many settings, including the neonatal
+        intensive care unit, outpatient clinics, various hospitals,
+        daycares/homes, and state eligibility assessment clinics. She recently
+        moved from Avondale, Pennsylvania to Arlington, Virginia and has been
+        enjoying time at home with her four year old daughter. She does continue
+        to work per diem as an occupational therapist in Delaware but is excited
+        to also work more locally with the preschoolers, enhancing their natural
+        love for science through The Science Seed program. (Teaching with The
+        Science Seed since 2018)
+      image: /img/teacher-amanda-broadhurst.jpeg
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
