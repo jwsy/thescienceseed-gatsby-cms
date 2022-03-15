@@ -61,7 +61,7 @@ const Navbar = class extends React.Component {
               style={{ 
                 outline: 'thin',
                 color: 'white',
-                backgroundColor: 'rgba(125, 190, 74, 0.9)',
+                backgroundColor: 'rgba(125, 190, 74, 0.8)',
               }}
             >
               <span />
@@ -85,9 +85,6 @@ const Navbar = class extends React.Component {
               </Link>
               <Link className="navbar-item" to="/contact">
                 Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
               </Link>
             </div>
             <div className="navbar-end has-text-centered">

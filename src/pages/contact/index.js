@@ -39,7 +39,7 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Contact</h1>
+              <h1>Contact Us!</h1>
               <form
                 name="contact"
                 method="post"
@@ -83,6 +83,21 @@ export default class Index extends React.Component {
                       onChange={this.handleChange}
                       id={"email"}
                       required={true}
+                    />
+                  </div>
+                </div>
+                <div className="field">
+                  <label className="label" htmlFor={"phone"}>
+                    Phone (optional)
+                  </label>
+                  <div className="control">
+                    <input
+                      className="input"
+                      type={"tel"}
+                      name={"phone"}
+                      onChange={this.handleChange}
+                      id={"phone"}
+                      required={false}
                     />
                   </div>
                 </div>
