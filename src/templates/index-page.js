@@ -67,15 +67,23 @@ export const IndexPageTemplate = ({
                   <Features gridItems={intro.blurbs} />
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
+                      <button className="button is-large is-primary is-fullwidth" 
+                        role="link" 
+                        onClick={()=>{navigate("/contact")}} >
+                        <span>Contact us &nbsp;</span>
+                        <span>
+                          <img src={logo} style={svgWhiteStyle} alt="TheScienceSeed" />
+                        </span>
+                      </button>
                       {/* <Link className="btn" to="/products">
                         See all products
                       </Link> */}
                     </div>
                   </div>
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold">
+                    {/* <h3 className="has-text-weight-semibold">
                       Latest stories
-                    </h3>
+                    </h3> */}
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/blog">

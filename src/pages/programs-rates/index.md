@@ -41,7 +41,7 @@ Our program options include:
 * Weekly, biweekly or monthly for the school year
 * Weekly for a set number of weeks
 * One-time visits for special events
-* [Teacher workshops](https://thescienceseed.com/programs-rates#teachers)
+* [Contact us about teacher workshops](/contact "Teacher workshops") to schedule your workshop today!
 
 ### Rates
 
@@ -55,4 +55,4 @@ The Science Seed will visit your teachers for staff enrichment in the sciences!�
 
 View our [Teacher Workshop Flyer](https://thescienceseed.com/wp-content/uploads/2017/06/The-Science-Seed-Teacher-Training-Flyer.pdf) for more information.
 
-[Contact us](https://thescienceseed.com/contact-us "Contact Us") to schedule your workshop today!
+[Contact us](/contact "Contact Us") to schedule your workshop today!

@@ -166,12 +166,8 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: Testimonials
+  description: Here's what people are saying about us!
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
@@ -182,12 +178,46 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: Kaldi is the place to go if you want the best quality coffee. I love
-      their stance on empowering farmers and transparency.
+  - author: Ann Stich, Director Corpus Christi, Early Childhood Center
+    quote: If you are looking for a great program to enrich your Science curriculum
+      The Science Seed is fantastic. They first came during camp and the
+      children absolutely love it. Our Our 3s and 4s absolutely love the program
+      and I love that they give a little note to send home to parents. We are
+      definitely doing it again next year.
+  - author: Lily Chen, Parent
+    quote: Thanks for your terrific teaching which has inspired my children’s deep
+      interest in science! My son is the type of kid who would never talk about
+      school at home to us. The only exception is after he has your class. Then
+      we hear all about it with his non-stop talking at dinner table. We started
+      to show them Nature and National Geographic videos to follow up on your
+      class. Your slips of the content of the class are great leads for us. As a
+      Chinese, I always find the American schools or society emphasizes too
+      little about science. Your class totally changed my view on this. So thank
+      you for teaching such a great class on science and teaching in the way
+      that captures the kids’ imagination. I am just amazed how powerful your
+      teaching is!
+  - quote: I thought of you today at the playground — my daughter took Science Seed
+      in kindergarten at St. Thomas More and is now in 2nd grade. Today when I
+      was pushing her on the tire swing, she nonchalantly said that a swing is a
+      simple machine. When I asked her where she learned that (thinking that she
+      must have learned in class sometime recently or from one of her books),
+      she said she learned it in Science Seed. That was almost two years ago!
+      This is not that unusual – she often talks about things she learned and
+      did in Science Seed. Thanks for developing such a great program!
+    author: Marissa Mauer, Parent
+  - quote: We loved having The Science Seed enrichment class in our preschool. It
+      was the first time we had tried something of this nature and The Science
+      Seed folks worked closely with us to design a program that was right for
+      us. The Science Seed leaders are excellent educators, using a hands on
+      approach and a variety of activities to hold the interest of our 3 and 4
+      year old friends! Their flexibility, knowledge of the subject matter, and
+      mindfulness of our kids ages and energy was invaluable. Each of our 10
+      weeks was better than the last! Every lesson was well planned and executed
+      and the children had a great time. The added bonus was the note home to
+      parents each week about the day’s activities and the Journal of work that
+      parents received after the last class. We are already looking forward to
+      next year!
+    author: Dina Backer, Preschool Site Director, JCCNV-Beth El, Alexandria
 full_image: /img/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions

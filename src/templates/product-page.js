@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql } from "gatsby";
+import { graphql, navigate} from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Teachers from "../components/Teachers";
@@ -11,6 +11,7 @@ import FullWidthImage from "../components/FullWidthImage";
 
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import logo from "../img/tss-logo-sq.svg";
 
 // eslint-disable-next-line
 export const ProductPageTemplate = ({
@@ -26,6 +27,12 @@ export const ProductPageTemplate = ({
 }) => {
   const heroImage = getImage(image) || image;
   const fullWidthImage = getImage(fullImage) || fullImage;
+
+  const svgWhiteStyle = {
+    fill: "#fff",
+    height: "1em",
+    filter: "brightness(0%) saturate(100%) invert(100%)",
+  };
 
   return (
     <div className="content">
@@ -44,6 +51,18 @@ export const ProductPageTemplate = ({
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <Teachers gridItems={intro.blurbs} /> 
+
+
+                <div className="pb-5">
+                  <button className="button is-large is-primary is-fullwidth" 
+                    role="link" 
+                    onClick={()=>{navigate("/contact")}} >
+                    <span>Contact us &nbsp;</span>
+                    <span>
+                      <img src={logo} style={svgWhiteStyle} alt="TheScienceSeed" />
+                    </span>
+                  </button>
+                </div>
                 <div className="columns">
                   <div className="column is-7">
                     <h3 className="has-text-weight-semibold is-size-3">
@@ -54,7 +73,7 @@ export const ProductPageTemplate = ({
                 </div>
                 <div className="tile is-ancestor">
                   <div className="tile is-vertical">
-                    <div className="tile">
+                    {/* <div className="tile">
                       <div className="tile is-parent is-vertical">
                         <article className="tile is-child">
                           <PreviewCompatibleImage imageInfo={main.image1} />
@@ -65,12 +84,12 @@ export const ProductPageTemplate = ({
                           <PreviewCompatibleImage imageInfo={main.image2} />
                         </article>
                       </div>
-                    </div>
-                    <div className="tile is-parent">
+                    </div> */}
+                    {/* <div className="tile is-parent">
                       <article className="tile is-child">
                         <PreviewCompatibleImage imageInfo={main.image3} />
                       </article>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <Testimonials testimonials={testimonials} />
@@ -79,7 +98,8 @@ export const ProductPageTemplate = ({
           </div>
         </div>
       </section>
-      <FullWidthImage img={fullWidthImage} imgPosition={"bottom"} />
+
+      {/* <FullWidthImage img={fullWidthImage} imgPosition={"bottom"} />
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
@@ -94,7 +114,16 @@ export const ProductPageTemplate = ({
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <button className="button is-large is-primary is-fullwidth" 
+        role="link" 
+        onClick={()=>{navigate("/contact")}} >
+        <span>Contact us &nbsp;</span>
+        <span>
+          <img src={logo} style={svgWhiteStyle} alt="TheScienceSeed" />
+        </span>
+      </button>
     </div>
   );
 };
