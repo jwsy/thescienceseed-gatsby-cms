@@ -6,6 +6,24 @@ image: /img/connorfeatured-image.jpeg
 ---
 ![](/img/connorfeatured-image.jpeg)
 
+
+
+## Arlington County Parks & Recreation
+
+The Science Seed™ is offered through **Arlington County Parks and Recreation!**
+
+Look for us in the catalog under “Science & Discovery!”
+
+Visit **<https://registration.arlingtonva.us/>** to register
+
+
+
+## How to Register for School Programs
+
+Registration for after-school classes takes place through your school’s administration, PTA/PTO, [FLEX Academies](https://flexacademies.com/), [Baroody Camps](https://www.baroodycamps.com/home) or through [Enrichment Matters](https://www.enrichmentmatters.com/).
+
+
+
 ## The Program
 
 ![Program Details - Science Seed](/img/rate1.jpeg)
