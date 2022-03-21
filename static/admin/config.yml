@@ -149,7 +149,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: Image, name: image, widget: image }
       - file: "src/pages/products/index.md"
-        label: "Products Page"
+        label: "Teachers & Testimonials"
         name: "products"
         fields:
           - {
