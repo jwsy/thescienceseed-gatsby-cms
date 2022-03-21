@@ -22,4 +22,4 @@ The Science Seed™ is based in Arlington, Virginia, and offers science enrichme
 
 All of the teachers for The Science Seed™ have undergone thorough background checks and are fully vaccinated against the COVID-19 virus.  Our teachers come to us with years of classroom experience.
 
-For more information about each of our teachers, and the owner, Allegra Jabo, please visit our [Teachers Page](/products/)
+For more information about each of our teachers, and the owner, Allegra Jabo, please **[visit our Teachers Page](/products/)**

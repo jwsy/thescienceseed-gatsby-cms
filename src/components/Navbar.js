@@ -80,7 +80,7 @@ const Navbar = class extends React.Component {
                 About
               </Link>
               <Link className="navbar-item" to="/products">
-                Teachers
+                Teachers & Testimonials
               </Link>
               <Link className="navbar-item" to="/programs-rates">
                 Programs & Rates
@@ -91,17 +91,6 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              
-              <a className="navbar-item" title="facebook" href="https://www.facebook.com/thescienceseedllc">
-                <img
-                  src={facebook}
-                  alt="Facebook"
-                  style={{ width: "1em", height: "1em" }}
-                />
-              </a>
-
               <a
                 className="navbar-item"
                 href="https://github.com/jwsy/thescienceseed-gatsby-cms"
@@ -112,7 +101,19 @@ const Navbar = class extends React.Component {
                   <img src={github} alt="Github" />
                 </span>
               </a>
+            </div>
 
+            <div className="navbar-end has-text-centered">
+              <a
+                className="navbar-item"
+                href="https://www.facebook.com/thescienceseedllc"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={facebook} alt="Facebook" />
+                </span>
+              </a>
             </div>
           </div>
         </div>

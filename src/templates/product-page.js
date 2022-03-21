@@ -37,17 +37,10 @@ export const ProductPageTemplate = ({
   return (
     <div className="content">
       <FullWidthImage img={fullWidthImage} title={title} />
-      <section className="section section--gradient">
+      <section className="section section--gradient pt-4">
         <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-7 is-offset-1">
-                <h3 className="has-text-weight-semibold is-size-2">
-                  {heading}
-                </h3>
-                <ReactMarkdown remarkPlugins={[[remarkGfm],]}>{description}</ReactMarkdown>
-              </div>
-            </div>
+          <div className="section pt-0">
+
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <Teachers gridItems={intro.blurbs} /> 
@@ -95,6 +88,25 @@ export const ProductPageTemplate = ({
                 <Testimonials testimonials={testimonials} />
               </div>
             </div>
+            
+            <div className="columns">
+              <div className="column is-7 is-offset-1">
+                <h3 className="has-text-weight-semibold is-size-2">
+                  {heading}
+                </h3>
+                <ReactMarkdown remarkPlugins={[[remarkGfm],]}>{description}</ReactMarkdown>
+              </div>
+            </div>
+        
+            <button className="button is-large is-primary is-fullwidth" 
+              role="link" 
+              onClick={()=>{navigate("/contact")}} >
+              <span>Contact us &nbsp;</span>
+              <span>
+                <img src={logo} style={svgWhiteStyle} alt="TheScienceSeed" />
+              </span>
+            </button>
+
           </div>
         </div>
       </section>
@@ -116,14 +128,6 @@ export const ProductPageTemplate = ({
         </div>
       </section> */}
 
-      <button className="button is-large is-primary is-fullwidth" 
-        role="link" 
-        onClick={()=>{navigate("/contact")}} >
-        <span>Contact us &nbsp;</span>
-        <span>
-          <img src={logo} style={svgWhiteStyle} alt="TheScienceSeed" />
-        </span>
-      </button>
     </div>
   );
 };
@@ -203,6 +207,7 @@ export const productPageQuery = graphql`
               }
             }
             text
+            title
           }
           heading
           description

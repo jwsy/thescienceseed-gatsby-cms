@@ -2,7 +2,7 @@
 heading: Would you like to teach for us?
 path: /products
 templateKey: product-page
-title: Our Teachers
+title: Teachers & Testimonials
 image: /img/hands-on-wide.jpeg
 description: |-
   We are the perfect job for teachers looking to pick up part-time work.  
