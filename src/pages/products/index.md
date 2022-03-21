@@ -9,9 +9,7 @@ description: |-
 
   * Flexible, part-time hours 
   * Great hourly pay 
-  * Teaching experience required 
-
-  [Please contact us if interested](/contact)
+  * Teaching experience required
 intro:
   blurbs:
     - image: /img/allegrajabo.jpeg
