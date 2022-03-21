@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
+import facebook from "../img/social/facebook.svg";
 import logo from "../img/tss-logo-sq.svg";
 import logoWords from "../img/logo-words-50.png";
 
@@ -78,11 +79,11 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/programs-rates">
-                Programs & Rates
-              </Link>
               <Link className="navbar-item" to="/products">
                 Teachers
+              </Link>
+              <Link className="navbar-item" to="/programs-rates">
+                Programs & Rates
               </Link>
               <Link className="navbar-item" to="/blog">
                 Blog
@@ -92,9 +93,18 @@ const Navbar = class extends React.Component {
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
+              
+              <a className="navbar-item" title="facebook" href="https://www.facebook.com/thescienceseedllc">
+                <img
+                  src={facebook}
+                  alt="Facebook"
+                  style={{ width: "1em", height: "1em" }}
+                />
+              </a>
+
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://github.com/jwsy/thescienceseed-gatsby-cms"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -102,6 +112,7 @@ const Navbar = class extends React.Component {
                   <img src={github} alt="Github" />
                 </span>
               </a>
+
             </div>
           </div>
         </div>

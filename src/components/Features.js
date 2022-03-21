@@ -10,7 +10,7 @@ const FeatureGrid = ({ gridItems }) => (
     {gridItems.map((item) => (
       // https://stackoverflow.com/a/62743794
       <div key={item.text} className="column is-6">
-        <section className="section y-4 clickableSection">
+        <section className="section y-4 py-5 clickableSection">
           <div className="has-text-centered">
             <div
               style={{
