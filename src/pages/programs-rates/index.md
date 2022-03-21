@@ -38,9 +38,7 @@ Classes cover a range of science subjects, with an emphasis on fun AND learning!
 * Nutrition (e.g. eat a rainbow)
 * Chemistry (e.g. liquid, solid, gas)
 * Physics (e.g. gravity)
-* Geology (e.g. volcanoes)
-
-[Click here to view a full list of topics!](/programs-rates "Topic List")
+* Geology (e.g. volcanoes
 
 ## Program Options
 
