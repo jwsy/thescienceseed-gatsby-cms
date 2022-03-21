@@ -218,7 +218,7 @@ testimonials:
       parents received after the last class. We are already looking forward to
       next year!
     author: Dina Backer, Preschool Site Director, JCCNV-Beth El, Alexandria
-full_image: /img/products-full-width.jpg
+full_image: /img/hands-on-wide.jpeg
 pricing:
   heading: Monthly subscriptions
   description: We make it easy to make great coffee a part of your life. Choose

@@ -1,6 +1,7 @@
 import * as React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
+import logo from "../../img/tss-logo-sq.svg";
 
 function encode(data) {
   return Object.keys(data)
@@ -34,6 +35,12 @@ export default class Index extends React.Component {
   };
 
   render() {
+    const svgWhiteStyle = {
+      fill: "#fff",
+      height: "1em",
+      filter: "brightness(0%) saturate(100%) invert(100%)",
+    };
+
     return (
       <Layout>
         <section className="section">
@@ -117,7 +124,10 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <button className="button is-link" type="submit">
-                    Send
+                    <span>Send &nbsp;</span>
+                    <span>
+                      <img src={logo} style={svgWhiteStyle} alt="TheScienceSeed" />
+                    </span>
                   </button>
                 </div>
               </form>

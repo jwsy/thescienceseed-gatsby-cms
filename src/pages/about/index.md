@@ -11,7 +11,7 @@ Does your child love a particular type of science?  Our themed camps will be pe
 
 ### Our community
 
-The Science Seed™ is based in Arlington, Virginia, and offers science enrichment for preschool – 2nd grade during the school day and after school at several preschools and elementary schools in Arlington, Alexandria, Annandale, and Falls Church.  **[View our school list](https://thescienceseed.com/take-a-class "Take A Class")**
+The Science Seed™ is based in Arlington, Virginia, and offers science enrichment for preschool – 2nd grade during the school day and after school at several preschools and elementary schools in Arlington, Alexandria, Annandale, and Falls Church.  **[View our school list](/programs-rates "Take A Class")**
 
 ### Only the best for our children
 

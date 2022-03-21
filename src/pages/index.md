@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: h1 content
-image: /img/slideshowSeashore.jpeg
+title: The Science Seed
+image: /img/tss-banner.jpg
 heading: We offer a wide range of topics in a variety of science disciplines
 subheading: planting a love of science
 mainpitch:
@@ -38,7 +38,7 @@ intro:
     science enrichment for preschool – 2nd grade during the school day and after
     school at several preschools and elementary schools in Arlington,
     Alexandria, Annandale, and Falls Church.  [View our school
-    list](https://thescienceseed.com/take-a-class).
+    list](/programs-rates).
 main:
   heading: Great coffee with no compromises
   description: >

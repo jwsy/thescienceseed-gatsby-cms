@@ -6,8 +6,6 @@ image: /img/connorfeatured-image.jpeg
 ---
 ![](/img/connorfeatured-image.jpeg)
 
-
-
 ## Arlington County Parks & Recreation
 
 The Science Seed™ is offered through **Arlington County Parks and Recreation!**
@@ -16,13 +14,9 @@ Look for us in the catalog under “Science & Discovery!”
 
 Visit **<https://registration.arlingtonva.us/>** to register
 
-
-
 ## How to Register for School Programs
 
 Registration for after-school classes takes place through your school’s administration, PTA/PTO, [FLEX Academies](https://flexacademies.com/), [Baroody Camps](https://www.baroodycamps.com/home) or through [Enrichment Matters](https://www.enrichmentmatters.com/).
-
-
 
 ## The Program
 
@@ -46,7 +40,7 @@ Classes cover a range of science subjects, with an emphasis on fun AND learning!
 * Physics (e.g. gravity)
 * Geology (e.g. volcanoes)
 
-[Click here to view a full list of topics!](https://thescienceseed.com/topic-list "Topic List")
+[Click here to view a full list of topics!](/programs-rates "Topic List")
 
 ## Program Options
 
@@ -63,7 +57,7 @@ Our program options include:
 
 ### Rates
 
-[![](https://thescienceseed.com/wp-content/uploads/2015/05/science-seed-28270-300x200.jpg)](https://thescienceseed.com/wp-content/uploads/2015/05/science-seed-28270.jpg)
+![](/img/rates-magnifying-glass.jpeg)
 
 Please [contact us](/contact "Contact Us") with your program needs for a rate quote.
 
@@ -71,6 +65,6 @@ Please [contact us](/contact "Contact Us") with your program needs for a rate q
 
 The Science Seed will visit your teachers for staff enrichment in the sciences!  We explain how to bring science and scientific thinking into all your preschool activities.  We’ll provide ideas for toys and books for the classroom as well as suggesting ways to bring science into circle time, story time, recess, art, snack and more!  Workshops last 1 – 1 1/2 hours.
 
-View our [Teacher Workshop Flyer](https://thescienceseed.com/wp-content/uploads/2017/06/The-Science-Seed-Teacher-Training-Flyer.pdf) for more information.
+View our [Teacher Workshop Flyer](/The-Science-Seed-Teacher-Training-Flyer.pdf) for more information.
 
-[Contact us](/contact "Contact Us") to schedule your workshop today!
+**[Contact us to schedule your workshop today!](/contact "Contact Us")**
