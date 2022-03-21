@@ -21,7 +21,7 @@ const FeatureGrid = ({ gridItems }) => (
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <h5 className="title is-size-5 my-1">{item.title}</h5>
+          <h3 className="title is-size-5 my-1">{item.title}</h3>
           {/* <p>{item.text}</p> */}
           <ReactMarkdown remarkPlugins={[[remarkGfm],]}>{item.text}</ReactMarkdown>
         </section>

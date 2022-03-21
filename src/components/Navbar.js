@@ -48,14 +48,14 @@ const Navbar = class extends React.Component {
                 // style={{ width: "88px" }}
               />
               <img src={logoWords} alt="TheScienceSeed" 
-                style={{ height: "27px" }}
-                // style={{ width: "88px" }}
+                style={{ height: "27px", width: "171px" }}
               />
             </Link>
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
+              aria-label="Toggle nav menu"
               role="menuitem"
               tabIndex={0}
               onKeyPress={() => this.toggleHamburger()}
@@ -66,9 +66,9 @@ const Navbar = class extends React.Component {
                 backgroundColor: 'rgba(125, 190, 74, 0.8)',
               }}
             >
-              <span />
-              <span />
-              <span />
+              <span role="none" />
+              <span role="none" />
+              <span role="none" />
             </div>
           </div>
           <div
