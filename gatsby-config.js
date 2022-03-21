@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter",
+    title: "The Science Seed",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "This is the business website for The Science Seed LLC(thescienceseed). The Science Seed™ is a science enrichment program designed to develop a love of science that will last a lifetime. The Science Seed™ is based in Arlington, Virginia, and offers science enrichment for preschool – 2nd grade during the school day and after school at several preschools and elementary schools in Arlington, Alexandria, Annandale, and Falls Church.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

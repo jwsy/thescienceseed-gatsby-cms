@@ -5,8 +5,8 @@ import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Teachers from "../components/Teachers";
 import Testimonials from "../components/Testimonials";
-import Pricing from "../components/Pricing";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+// import Pricing from "../components/Pricing";
+// import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import FullWidthImage from "../components/FullWidthImage";
 
 import ReactMarkdown from 'react-markdown';
@@ -23,9 +23,9 @@ export const ProductPageTemplate = ({
   main,
   testimonials,
   fullImage,
-  pricing,
+  // pricing,
 }) => {
-  const heroImage = getImage(image) || image;
+  // const heroImage = getImage(image) || image;
   const fullWidthImage = getImage(fullImage) || fullImage;
 
   const svgWhiteStyle = {
@@ -36,7 +36,7 @@ export const ProductPageTemplate = ({
 
   return (
     <div className="content">
-      <FullWidthImage img={heroImage} title={title} />
+      <FullWidthImage img={fullWidthImage} title={title} />
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
