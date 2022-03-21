@@ -1,5 +1,7 @@
 # TheScienceSeed - Gatsby + Netlify CMS Starter
 
+![apple-touch-icon](https://user-images.githubusercontent.com/446031/159216690-c8ff9244-b1aa-47c5-b85d-d20560596639.png)
+
 ## [https://thescienceseed-demo.ml](https://thescienceseed-demo.ml)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/83835e8f-5206-4602-b605-7e0672226cf4/deploy-status)](https://app.netlify.com/sites/thescienceseed-demo/deploys)
