@@ -11,10 +11,11 @@ const Navbar = class extends React.Component {
     this.state = {
       active: false,
       navBarActiveClass: "",
-      showLogoWords: (
-        window.location.href.split('/', 4).length > 3 
-        && window.location.href.split('/', 4)[3].length > 0 
-        ) ? 'show' : 'is-sr-only',
+      showLogoWords: "",
+      // showLogoWords: (
+      //   window.location.href.split('/', 4).length > 3 
+      //   && window.location.href.split('/', 4)[3].length > 0 
+      //   ) ? 'show' : 'is-sr-only',
     };
   }
 
