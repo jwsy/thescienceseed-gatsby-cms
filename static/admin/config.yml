@@ -229,7 +229,7 @@ collections:
               widget: list,
               fields:
                 [
-                  { label: Quote, name: quote, widget: string },
+                  { label: Quote, name: quote, widget: markdown },
                   { label: Author, name: author, widget: string },
                 ],
             }

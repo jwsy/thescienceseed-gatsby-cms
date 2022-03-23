@@ -11,6 +11,10 @@ const Navbar = class extends React.Component {
     this.state = {
       active: false,
       navBarActiveClass: "",
+      showLogoWords: (
+        window.location.href.split('/', 4).length > 3 
+        && window.location.href.split('/', 4)[3].length > 0 
+        ) ? 'show' : 'is-sr-only',
     };
   }
 
@@ -43,11 +47,14 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
+            <Link to="/" 
+              className={`navbar-item ${this.state.showLogoWords}` }
+              title="Logo">
               <img src={logo} alt="TheScienceSeed" 
                 // style={{ width: "88px" }}
               />
               <img src={logoWords} alt="TheScienceSeed" 
+                className={`${this.state.showLogoWords}`}
                 style={{ height: "27px", width: "171px" }}
               />
             </Link>
