@@ -179,8 +179,8 @@ testimonials:
   - author: Ann Stich, Director Corpus Christi, Early Childhood Center
     quote: If you are looking for a great program to enrich your Science curriculum
       The Science Seed is fantastic. They first came during camp and the
-      children absolutely love it. Our Our 3s and 4s absolutely love the program
-      and I love that they give a little note to send home to parents. We are
+      children absolutely love it. Our 3s and 4s absolutely love the program and
+      I love that they give a little note to send home to parents. We are
       definitely doing it again next year.
   - author: Lily Chen, Parent
     quote: Thanks for your terrific teaching which has inspired my children’s deep

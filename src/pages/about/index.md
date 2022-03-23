@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 path: /about
-title: About our values
+title: About The Science Seed™
 ---
 The Science Seed™ is a science enrichment program designed to develop a love of science that will last a lifetime. Children are natural scientists; curious and full of the desire to observe and explore.  Preschool and early elementary are the perfect times to start a lifelong love of science by introducing students to basic concepts.
 
