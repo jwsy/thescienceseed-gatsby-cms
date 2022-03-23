@@ -13,13 +13,11 @@ featuredpost: false
 featuredimage: /img/science-seed-28288-copy-300x200.jpeg
 ---
 For registration dates and information about registration, please visit:
-https://parks.arlingtonva.us/classes/ 
+<https://parks.arlingtonva.us/classes/> 
 
 The class will have a maximum of 14 students and 1 teacher.  We are asking that parents drop their kids in the class and wait outside the classroom (or nearby in the community center) similar to a dance or gymnastics class, so that they are available to assist their own child with potty breaks.  However, if the instructor feels a student would benefit more in class with the parent present, she will invite the parent into the classroom.
 
 ![](/img/science-seed-28288-copy-300x200.jpeg)
-
-
 
 ## Topic Schedule
 
