@@ -1,19 +1,11 @@
 import * as React from "react";
 import PropTypes from "prop-types";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import { useHistory } from "react-router-dom";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { navigate } from "gatsby";
 
 const FeatureGrid = ({ gridItems }) => {
-  // const history = useHistory();
-  const handleClick = url => { 
-    console.log("handleClick")
-    let path = url; 
-    navigate(path);
-  }
-
 
   const handleKeyDown = (ev) => {
     // check keys if you want
