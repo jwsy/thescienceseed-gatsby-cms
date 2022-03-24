@@ -43,6 +43,12 @@ Netlify CMS can run in any frontend web environment, but the quickest way to try
 After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
 
 To host PDFs or other non-image files, drop them in `static/` and reference them in the root of your site, for instance `localhost:8000/The-Science-Seed-Teacher-Training-Flyer.pdf`
+
+## Admin emails
+Due to a bug in Netlify CMS, when you receive your email to activate an account, add an `admin` between the `/` and `#` so you can create an account.  For example: 
+* Receive `https://thescienceseed-demo.ml/#invite_token=e0MUPyxuoHNNK-9bV-wTf0`
+* Correct to `https://thescienceseed-demo.ml/admin#invite_token=e0MUPyxuoHNNK-9bV-wTf0`
+
 ### Access Locally
 
 Pulldown a local copy of the Github repository Netlify created for you, with the name you specified in the previous step
