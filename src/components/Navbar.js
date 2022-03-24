@@ -7,7 +7,6 @@ import logoWords from "../img/logo-words-50.png";
 
 const Navbar = class extends React.Component {
   constructor(props) {
-    console.log(props);
     super(props);
     this.state = {
       active: false,
