@@ -1,6 +1,7 @@
 ---
 templateKey: about-page
 path: /about
+image: /img/slideshowMagnet.jpeg
 title: About The Science Seed™
 ---
 The Science Seed™ is a science enrichment program designed to develop a love of science that will last a lifetime. Children are natural scientists; curious and full of the desire to observe and explore.  Preschool and early elementary are the perfect times to start a lifelong love of science by introducing students to basic concepts.
@@ -13,7 +14,7 @@ Does your child love a particular type of science?  Our themed camps will be pe
 
 The Science Seed™ is based in Arlington, Virginia, and offers science enrichment for preschool – 2nd grade during the school day and after school at several preschools and elementary schools in Arlington, Alexandria, Annandale, and Falls Church.  **[View our school list](/programs-rates "Take A Class")**
 
-### Only the best for our children
+### Our high standards
 
 * Certified Small, Micro, Woman Owned business (**[SWaM](https://www.sbsd.virginia.gov/certification-division/swam/)**)
 * Insured by **[The Hartford Insurance](https://www.thehartford.com/)**.
