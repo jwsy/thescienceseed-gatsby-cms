@@ -1,9 +1,9 @@
 ---
 templateKey: blog-post
 title: "Follow us on Facebook "
-date: 2022-03-21T05:17:26.119Z
+date: 2022-03-19T05:17:00.000Z
 description: 👋
-featuredpost: false
+featuredpost: true
 featuredimage: /img/og-image.jpg
 ---
 Follow us on Facebook <https://www.facebook.com/thescienceseedllc>
