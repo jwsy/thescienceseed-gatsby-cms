@@ -20,7 +20,6 @@ const FeatureGrid = ({ gridItems }) => {
         // https://stackoverflow.com/a/62743794
         <div 
           key={item.text} className="column is-6"
-          // onClick={() => handleClick(item.url)}
           onClick={() => navigate(item.url)}
           onKeyDown={handleKeyDown}
           role="link"
@@ -38,7 +37,6 @@ const FeatureGrid = ({ gridItems }) => {
               </div>
             </div>
             <h3 className="title is-size-5 my-1">{item.title}</h3>
-            {/* <p>{item.text}</p> */}
             <ReactMarkdown remarkPlugins={[[remarkGfm],]}>{item.text}</ReactMarkdown>
           </section>
         </div>
