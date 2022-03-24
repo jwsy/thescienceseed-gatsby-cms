@@ -4,9 +4,10 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
-import { withPrefix } from "gatsby";
+import { withPrefix,  } from "gatsby";
 
-const TemplateWrapper = ({ children }) => {
+// location can be passed in from template, currently only from index-page.js
+const TemplateWrapper = ({ children, location }) => {
   const { title, description } = useSiteMetadata();
   return (
     <div>
@@ -48,7 +49,7 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
       </Helmet>
-      <Navbar />
+      <Navbar loc={location} />
       <div>{children}</div>
       <Footer />
     </div>

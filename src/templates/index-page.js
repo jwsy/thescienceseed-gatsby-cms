@@ -21,6 +21,7 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   intro,
+  location,
 }) => {
   const heroImage = getImage(image) || image;
   const svgWhiteStyle = {
@@ -113,11 +114,12 @@ IndexPageTemplate.propTypes = {
   }),
 };
 
-const IndexPage = ({ data }) => {
+const IndexPage = ({ location, data }) => {
   const { frontmatter } = data.markdownRemark;
+  // console.log(`location.pathname = ${location.pathname}`);
 
   return (
-    <Layout>
+    <Layout location={location}>
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}

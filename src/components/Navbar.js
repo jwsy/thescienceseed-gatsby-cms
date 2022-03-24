@@ -7,15 +7,12 @@ import logoWords from "../img/logo-words-50.png";
 
 const Navbar = class extends React.Component {
   constructor(props) {
+    console.log(props);
     super(props);
     this.state = {
       active: false,
       navBarActiveClass: "",
-      showLogoWords: "",
-      // showLogoWords: (
-      //   window.location.href.split('/', 4).length > 3 
-      //   && window.location.href.split('/', 4)[3].length > 0 
-      //   ) ? 'show' : 'is-sr-only',
+      showLogoWords: (props.loc && 'pathname' in props.loc) ? 'is-sr-only' : 'show',
     };
   }
 
@@ -40,6 +37,7 @@ const Navbar = class extends React.Component {
   }
 
   render() {
+    // console.log(`navbar props: ${JSON.stringify(this.props)}`);
     return (
       <nav
         className="navbar is-transparent"
