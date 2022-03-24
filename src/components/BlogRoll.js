@@ -12,7 +12,9 @@ class BlogRollTemplate extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+            <div className="is-parent column is-6" key={post.id}
+              style={{ "overflow-wrap": "break-word"}}
+            >
               <article
                 className={`blog-list-item tile is-child box notification ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
@@ -48,7 +50,7 @@ class BlogRollTemplate extends React.Component {
                     </span>
                   </p>
                 </header>
-                <p>
+                <p >
                   {post.excerpt}
                   <br />
                   <br />
