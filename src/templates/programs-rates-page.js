@@ -3,29 +3,32 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import { getImage } from "gatsby-plugin-image";
+import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
 export const ProgramsRatesPageTemplate = ({ title, content, image, contentComponent }) => {
   const PageContent = contentComponent || Content;
+  const heroImage = getImage(image) || image;
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <div>
-                {image}
+    <div>
+      <FullWidthImage img={heroImage} title="Programs & Rates" subheading="" />
+      <section className="section section--gradient py-4">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="section py-4">
+                <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                  {title}
+                </h2>
+                <PageContent className="content" content={content} />
               </div>
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 
@@ -45,7 +48,7 @@ const ProgramsRatesPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
-        image={post.image}
+        image={post.frontmatter.image}
       />
     </Layout>
   );

@@ -4,8 +4,6 @@ path: /programs-rates
 title: Programs & Rates
 image: /img/connorfeatured-image.jpeg
 ---
-![](/img/connorfeatured-image.jpeg)
-
 ## Arlington County Parks & Recreation
 
 The Science Seed™ is offered through **Arlington County Parks and Recreation!**
