@@ -43,8 +43,8 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
-          <div className="navbar-brand">
+        <div className="container" role="navigation">
+          <div className="navbar-brand" role="navigation">
             <Link to="/" 
               className={`navbar-item ${this.state.showLogoWords}` }
               title="Logo">

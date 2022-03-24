@@ -23,7 +23,7 @@ const FeatureGrid = ({ gridItems }) => {
           onClick={() => navigate(item.url)}
           onKeyDown={handleKeyDown}
           role="link"
-          tabIndex={i}
+          tabIndex={0}
         >
           <section className="section y-4 py-5 clickableSection">
             <div className="has-text-centered">
